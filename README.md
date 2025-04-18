@@ -1,3 +1,8 @@
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_dark.png">
+    <img alt="Tapp Laravel 12 SaaS Starter Kit Light Logo" src="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_light.png" height="200">
+</picture>
+
 # Tapp Laravel 12 SaaS Starter Kit
 
 Key features include:
