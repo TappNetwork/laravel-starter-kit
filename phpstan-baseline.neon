@@ -1,0 +1,1597 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Actions/GetCheckoutData.php
+
+		-
+			message: '#^Property App\\Models\\User\:\:\$is_admin \(bool\) does not accept int\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: app/Console/Commands/ProdMigration.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Team\:\:\$activeSubscriptions\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Console/Commands/RefreshSubscriberCredits.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Console/Commands/RefreshSubscriberCredits.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:notify\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Console/Commands/SendReservationReminders.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\TeamSubscription\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Console/Commands/SyncStripeSubscriptions.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\TeamSubscription\:\:\$stripe_plan\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Console/Commands/SyncStripeSubscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$current_team_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Auth/Register.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Auth/Register.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:ownedTeams\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Auth/Register.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:teams\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Auth/Register.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Companies.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Companies.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$owner\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/Companies.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$owner_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/Companies.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:removeTeamMember\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Companies.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$owner\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/CompanyEdit.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$owner_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/CompanyEdit.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Dashboard.php
+
+		-
+			message: '#^Access to an undefined property App\\Filament\\App\\Pages\\FoodOrderCreate\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/FoodOrderCreate.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/FoodOrderCreate.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/FoodOrderCreate.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Pages/FoodOrderCreate.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<\(int\|string\),mixed\>\:\:mapWithKeys\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Filament/App/Pages/FoodOrderCreate.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/FoodOrders.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$foodItem\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/FoodOrders.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/FoodOrders.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$paid_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/FoodOrders.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Cannot call method toDateTimeString\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Left side of && is always true\.$#'
+			identifier: booleanAnd.leftAlwaysTrue
+			count: 1
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Left side of \|\| is always true\.$#'
+			identifier: booleanOr.leftAlwaysTrue
+			count: 1
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Reservation\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Filament/App/Pages/ReservationCreate.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Reservations.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$calendarLink\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Reservations.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$start\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Reservations.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Pages/Reservations.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionCreate.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\TeamSubscription\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$stripe_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Offset ''plan_id'' on array\{plan_id\: int, quantity\?\: mixed\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionEdit.php
+
+		-
+			message: '#^Access to an undefined property App\\Filament\\App\\Pages\\SubscriptionPending\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionPending.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/SubscriptionPending.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$plan\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:allOffices\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Ternary operator condition is always true\.$#'
+			identifier: ternary.alwaysTrue
+			count: 2
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Using nullsafe method call on non\-nullable type Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Filament/App/Pages/SubscriptionView.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$plan\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$team\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:cancelSubscription\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getOfficesGroupedByPlan\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:resumeSubscription\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Pages/Subscriptions.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Widgets/StatsOverview.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Widgets/UpcomingReservations.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$start\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Widgets/UpcomingReservations.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Widgets/UpcomingReservations.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/App/Widgets/UpdatePaymentMethodWidget.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Guest/Pages/Rentables.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Guest/Pages/Rentables.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Resources/OfficeResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Resources/PlanResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Resources/RentableResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Resources/RestaurantResource.php
+
+		-
+			message: '#^Property App\\Forms\\Components\\FoodItems\:\:\$view \(view\-string\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Forms/Components/FoodItems.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$card_brand\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Helpers/Mill.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$card_last_four\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Helpers/Mill.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$stripe_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Helpers/Mill.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:findPaymentMethod\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Helpers/Mill.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:teamPaymentMethods\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Helpers/Mill.php
+
+		-
+			message: '#^Method App\\Helpers\\StripeHelper\:\:getTeamByStripeId\(\) should return App\\Models\\Team\|null but returns Laravel\\Cashier\\Billable\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Helpers/StripeHelper.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Controllers\\Api\\ApiController\:\:\$fractal\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Access to property \$admin_uploaded on an unknown class App\\Photo\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Access to property \$url on an unknown class App\\Photo\.$#'
+			identifier: class.notFound
+			count: 4
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Access to property \$user_id on an unknown class App\\Photo\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\User\:\:hasRole\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Instantiated class App\\Photo not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\ApiController\:\:errorForbidden\(\) has invalid return type App\\Http\\Controllers\\Api\\Response\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\ApiController\:\:errorInternalError\(\) has invalid return type App\\Http\\Controllers\\Api\\Response\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\ApiController\:\:errorNotFound\(\) has invalid return type App\\Http\\Controllers\\Api\\Response\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\ApiController\:\:errorUnauthorized\(\) has invalid return type App\\Http\\Controllers\\Api\\Response\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Api\\ApiController\:\:errorWrongArgs\(\) has invalid return type App\\Http\\Controllers\\Api\\Response\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ApiController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/CheckoutController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$teams\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/CompanyController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/DownloadInvoiceController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/DownloadInvoiceController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$phone\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/DownloadInvoiceController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$product\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/DownloadInvoiceController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/PaymentMethodController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Middleware/HasPaymentMethod.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/AmenityRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/AmenityRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/FoodItemRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/FoodItemRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/ImageUploadRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/ImageUploadRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/LocationFloorPlanRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/LocationFloorPlanRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/LocationRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/LocationRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/OfficeRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/OfficeRequest.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/PayFoodOrder.php
+
+		-
+			message: '#^Class App\\Rules\\FoodOrderDelivery constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/PayFoodOrder.php
+
+		-
+			message: '#^Class App\\Rules\\MultiRestaurantMinimum constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/PayFoodOrder.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/PlanRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/PlanRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/RentableRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/RentableRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/RestaurantRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/RestaurantRequest.php
+
+		-
+			message: '#^Class App\\Rules\\FoodOrderDelivery constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/StoreFoodOrder.php
+
+		-
+			message: '#^Class App\\Rules\\MultiRestaurantMinimum constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/StoreFoodOrder.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/SubscriptionRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/SubscriptionRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Contracts\\Auth\\Authenticatable\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/TeamRequest.php
+
+		-
+			message: '#^Call to static method developer\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/TeamRequest.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Requests/UpdateFoodOrder.php
+
+		-
+			message: '#^Class App\\Rules\\FoodOrderDelivery constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/UpdateFoodOrder.php
+
+		-
+			message: '#^Class App\\Rules\\MultiRestaurantMinimum constructor invoked with 0 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: app/Http/Requests/UpdateFoodOrder.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$delivery_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$paid_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$refunded_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\FoodOrderResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/FoodOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$deleted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$office_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Location\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Location.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$available_at_date\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$deleted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$location_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$occupancy\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$plan\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$room_number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$stripe_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Office\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Office.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$activeSubscriptions\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$archived\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$available_at_date\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$choose_office\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$deleted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$extra\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$interval\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$limit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$location_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\Plan\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/StudioResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/StudioResource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:each\(\) expects callable\(Illuminate\\Database\\Eloquent\\Model, int\)\: mixed, Closure\(Laravel\\Cashier\\Subscription\)\: void given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Jobs/Stripe/CustomerDeletedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionCreatedJob.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:items\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionCreatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$stripe_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionDeletedJob.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:skipTrial\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionDeletedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$quantity\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$stripe_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$stripe_status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$trial_ends_at\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:items\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:onTrial\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Jobs/Stripe/CustomerSubscriptionUpdatedJob.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/Stripe/InvoicePaymentFailedJob.php
+
+		-
+			message: '#^Access to property \$team on an unknown class Laravel\\Spark\\Events\\Teams\\Subscription\\SubscriptionCancelled\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Listeners/CleanUpAirtableOnCancellation.php
+
+		-
+			message: '#^Class Laravel\\Spark\\Events\\Teams\\Subscription\\SubscriptionCancelled not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Listeners/CleanUpAirtableOnCancellation.php
+
+		-
+			message: '#^Instanceof between Laravel\\Spark\\Events\\Teams\\Subscription\\SubscriptionCancelled and Laravel\\Spark\\Events\\Teams\\Subscription\\SubscriptionCancelled will always evaluate to true\.$#'
+			identifier: instanceof.alwaysTrue
+			count: 1
+			path: app/Listeners/CleanUpAirtableOnCancellation.php
+
+		-
+			message: '#^Parameter \$event of method App\\Listeners\\CleanUpAirtableOnCancellation\:\:handle\(\) has invalid type Laravel\\Spark\\Events\\Teams\\Subscription\\SubscriptionCancelled\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Listeners/CleanUpAirtableOnCancellation.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Listeners/SubscribeToConferenceRoom.php
+
+		-
+			message: '#^Access to property \$user on an unknown class Laravel\\Spark\\Events\\Auth\\UserRegistered\.$#'
+			identifier: class.notFound
+			count: 9
+			path: app/Listeners/UserToAirtable.php
+
+		-
+			message: '#^Parameter \$event of method App\\Listeners\\UserToAirtable\:\:handle\(\) has invalid type Laravel\\Spark\\Events\\Auth\\UserRegistered\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Listeners/UserToAirtable.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/PendingInvitations.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:accept\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/PendingInvitations.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:reject\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/PendingInvitations.php
+
+		-
+			message: '#^Access to an undefined property App\\Livewire\\SendInvitation\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/SendInvitation.php
+
+		-
+			message: '#^Access to an undefined property Livewire\\Component\:\:\$record\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/SendInvitation.php
+
+		-
+			message: '#^Method App\\Livewire\\SendInvitation\:\:createInvitation\(\) should return App\\Models\\Invitation but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Livewire/SendInvitation.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getOfficesGroupedByPlan\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Mail/CustomerSubscriptionCreated.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Mail/SendInvitation.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$pivot\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:invoiceFor\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany\:\:withTrashed\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Cannot call method format\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Instantiated class App\\Models\\FoodOrderCancelled not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Method App\\Models\\FoodOrder\:\:delete\(\) should return bool\|null but empty return statement found\.$#'
+			identifier: return.empty
+			count: 4
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Undefined variable\: \$order$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Models/FoodOrder.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:users\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Invitation.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Plan\:\:\$features\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Plan\:\:\$is_available\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$available_at_date\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:isAvailable\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Cannot call method format\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Cannot call method lt\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Left side of && is always true\.$#'
+			identifier: booleanAnd.leftAlwaysTrue
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Plan\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Parameter \#1 \$source of method Illuminate\\Support\\Collection\<int,App\\Models\\Plan\>\:\:concat\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Property ''is_available'' does not exist in model\.$#'
+			identifier: rules.modelAppends
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$google_calendar_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Cannot call method diffInHours\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Cannot call method diffInMinutes\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Cannot call method isSameDay\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Cannot call method shiftTimezone\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Parameter \#2 \$from of static method Spatie\\CalendarLinks\\Link\:\:create\(\) expects DateTimeInterface, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Parameter \#3 \$to of static method Spatie\\CalendarLinks\\Link\:\:create\(\) expects DateTimeInterface, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Models/Reservation.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$credit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$gets_member_rate\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$items\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$plan\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$rollover_credit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\Invoice\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\Invoice\:\:\$payment_intent\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\Invoice\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\Invoice\:\:\$subscription\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Pagination\\CursorPaginator\:\:through\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^PHPDoc tag @return with type Illuminate\\Database\\Eloquent\\Collection is incompatible with native type Illuminate\\Database\\Eloquent\\Relations\\HasMany\.$#'
+			identifier: return.phpDocType
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<\(int\|string\),mixed\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$plan\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/TeamSubscription.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<\(int\|string\),Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Models/TeamSubscription.php
+
+		-
+			message: '#^Call to method stripeOptions\(\) on an unknown class Laravel\\Cashier\\Billable\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Models/TeamSubscriptionItem.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$currentTeam\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$ownedTeams\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/User.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$teams\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Models/User.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$owner_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:onTrial\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:currentTeam\(\) should return Illuminate\\Database\\Eloquent\\Model\|null but return statement is missing\.$#'
+			identifier: return.missing
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:refreshCurrentTeam\(\) should return App\\Models\\Team but returns Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:roleOn\(\) should return string but return statement is missing\.$#'
+			identifier: return.missing
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Call to static method invoiceDataFor\(\) on an unknown class Spark\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Notifications/InvoicePaid.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\Office\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\Office\>\:\:isAvailable\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Providers/AppServiceProvider.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\PaymentMethod\:\:\$card\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Services/PaymentMethodService.php
+
+		-
+			message: '#^Access to an undefined property Laravel\\Cashier\\PaymentMethod\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Services/PaymentMethodService.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:active\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Services/PaymentMethodService.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:teamPaymentMethods\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Services/PaymentMethodService.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:updateStripeSubscription\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Services/PaymentMethodService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Transformers/ReservationTransformer.php
