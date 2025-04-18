@@ -23,6 +23,7 @@ Key features include:
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 - Pest
 - Peck
+- Larastan
 
 ## Global Laravel Configurations included
 
