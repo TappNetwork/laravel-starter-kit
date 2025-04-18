@@ -1,0 +1,17 @@
+---
+description: This rule helps cursor generate tests following a defined structure
+globs: tests/*
+alwaysApply: false
+---
+ ---
+framework: pest
+testFilePattern: tests/**/*Test.php
+---
+
+# Testing Configuration
+
+This file configures testing settings for the project:
+
+- Using Pest PHP as the testing framework
+- Test files are located in the `tests` directory and follow the `*Test.php` naming pattern
+- Generate a {Model}Factory with each model

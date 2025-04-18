@@ -1,0 +1,52 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: sass
+    versions:
+    - 1.32.10
+    - 1.32.6
+    - 1.32.7
+    - 1.32.8
+  - dependency-name: postcss
+    versions:
+    - 8.2.10
+    - 8.2.9
+  - dependency-name: less-loader
+    versions:
+    - 8.0.0
+    - 8.1.0
+  - dependency-name: laravel-mix
+    versions:
+    - 6.0.11
+    - 6.0.13
+    - 6.0.16
+  - dependency-name: sweetalert2
+    versions:
+    - 10.14.1
+    - 10.15.5
+    - 10.15.7
+  - dependency-name: underscore
+    versions:
+    - 1.12.1
+  - dependency-name: element-ui
+    versions:
+    - 2.15.1
+  - dependency-name: query-string
+    versions:
+    - 6.14.0
+    - 6.14.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.21
+  - dependency-name: urijs
+    versions:
+    - 1.19.6
+  - dependency-name: sass-loader
+    versions:
+    - 10.1.1
