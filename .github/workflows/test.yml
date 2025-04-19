@@ -20,53 +20,69 @@ jobs:
           - 3306:3306
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
     runs-on: ${{ matrix.operating-system }}
+
     steps:
       - name: Install aspell
         run: |
           sudo apt-get update
           sudo apt-get install -y aspell aspell-en
+
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
           extensions: bcmath, ctype, fileinfo, json, mbstring, openssl, pdo, tokenizer, xml
           coverage: none
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Prepare the environment
-        run: cp .env.testing .env
+        run: |
+          cp .env.testing .env
+          echo "Environment file contents:"
+          cat .env
+
       - name: Get composer cache directory
         id: composer-cache
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+
       - name: Setup composer cache
         uses: actions/cache@v3
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
+
       - name: Install composer dependencies
         env:
           COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
         run: composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Generate autoloader in strict mode
+        run: composer dump-autoload --strict-psr
+
       - name: Generate application key
-        run: php artisan key:generate
+        run: php artisan key:generate --force --env=testing
+
       - name: Build Assets
         run: npm install && npm run build
+
+      - name: Clear caches for testing
+        run: |
+          php artisan config:clear --env=testing
+          php artisan cache:clear --env=testing
+
       - name: Larastan
         run: ./vendor/bin/phpstan analyse
-      - name: Clear config cache
-        run: php artisan config:clear
-      - name: Clear cache
-        run: php artisan cache:clear
-      - name: Clear caches
-        run: php artisan optimize:clear
-      - name: Cache config
-        run: php artisan config:cache
+
       - name: Spellcheck
         run: ./vendor/bin/peck
+
       - name: Run tests
-        run: php artisan test
+        run: php artisan test --env=testing
