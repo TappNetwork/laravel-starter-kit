@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tapp Laravel SaaS Starter Kit</title>
+    <title>Tapp Laravel Starter Kit</title>
 
     <link rel="canonical" href="{{ url()->current() }}">
 
@@ -23,10 +23,10 @@
         {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            "name": "Tapp Laravel SaaS Starter Kit",
+            "name": "Tapp Laravel Starter Kit",
             "url": "https://github.com/TappNetwork/laravel-starter-kit",
             "image": "https://github.com/TappNetwork/laravel-starter-kit/images/og.png",
-            "description": "Tapp Laravel SaaS Starter Kit.",
+            "description": "Tapp Laravel Starter Kit.",
             "applicationCategory": "DeveloperTool",
             "operatingSystem": "All",
             "offers": {

@@ -1,9 +1,9 @@
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_dark.png">
-    <img alt="Tapp Laravel 12 SaaS Starter Kit Light Logo" src="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_light.png">
+    <img alt="Tapp Laravel 12 Starter Kit Light Logo" src="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_light.png">
 </picture>
 
-# Tapp Laravel 12 SaaS Starter Kit
+# Tapp Laravel 12 Starter Kit
 
 Key features include:
 - Pre-configured User architecture (Model, Policy, Factory, Migration, and Seeder)
@@ -101,7 +101,7 @@ and also an "Administrator" role and user permissions.
 
 ## Contributing
 
-Thank you for considering contributing to the Tapp Laravel SaaS Starter Kit!
+Thank you for considering contributing to the Tapp Laravel Starter Kit!
 
 ## Security Vulnerabilities
 
