@@ -42,7 +42,7 @@
     @livewireStyles
 </head>
 
-<body class="font-sans antialiased bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+<body class="font-sans antialiased bg-gradient-to-r from-red-50 to-blue-100 text-gray-900 dark:text-gray-100">
     <div class="min-h-screen">
         @yield('content')
     </div>
