@@ -5,9 +5,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
-use Tests\TestCase;
 
-uses(TestCase::class, RefreshDatabase::class);
+uses(RefreshDatabase::class);
 
 test('user can be created', function () {
     $user = User::factory()->create([

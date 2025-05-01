@@ -3,6 +3,11 @@
     <img alt="Tapp Laravel 12 Starter Kit Light Logo" src="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_light.png">
 </picture>
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tapp/laravel-starter-kit.svg?style=flat-square&colorA=3d454d&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
+![GitHub Tests Action Status](https://github.com/TappNetwork/laravel-starter-kit/actions/workflows/test.yml/badge.svg?style=flat-square)
+![GitHub Pint Action Status](https://github.com/TappNetwork/laravel-starter-kit/actions/workflows/pint.yml/badge.svg?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/tapp/laravel-starter-kit.svg?style=flat-square&colorA=3d454d&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
+
 # Tapp Laravel 12 Starter Kit
 
 Key features include:
@@ -49,24 +54,22 @@ While TailwindCSS and Alpine.js are included for styling and frontend interactiv
 ## Quick Start
 
 ```bash
-composer create-project tapp/laravel-starter-kit
+composer create-project tapp/laravel-starter-kit <your-project-name-here>
 ```
 
 Install dependencies
 
 ```bash
-composer install
-
 npm install
 npm run build
 ```
 
-Setup environment
+Setup the environment
+
+In the `.env` file, update the database name and other env vars according to your needs:
 
 ```bash
-cp .env.example .env
-
-# in the newly created .env file, configure your database:
+# in the .env file, configure your database:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
