@@ -15,6 +15,10 @@
 // pest()->extend(Tests\TestCase::class)
 //     ->in('Feature', 'Unit');
 
+uses(
+    Tests\TestCase::class
+)->in('.');
+
 /*
 |--------------------------------------------------------------------------
 | Expectations
