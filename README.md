@@ -3,10 +3,10 @@
     <img alt="Tapp Laravel 12 Starter Kit Light Logo" src="https://raw.githubusercontent.com/TappNetwork/laravel-starter-kit/main/art/logo_light.png">
 </picture>
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tapp/laravel-starter-kit.svg?style=flat-square&colorA=000000&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
-![GitHub Tests Action Status](https://github.com/TappNetwork/laravel-starter-kit/actions/workflows/run-tests.yml/badge.svg?style=flat-square)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tapp/laravel-starter-kit.svg?style=flat-square&colorA=3d454d&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
+![GitHub Tests Action Status](https://github.com/TappNetwork/laravel-starter-kit/actions/workflows/test.yml/badge.svg?style=flat-square)
 ![GitHub Pint Action Status](https://github.com/TappNetwork/laravel-starter-kit/actions/workflows/pint.yml/badge.svg?style=flat-square)
-[![Total Downloads](https://img.shields.io/packagist/dt/tapp/laravel-starter-kit.svg?style=flat-square&colorA=000000&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
+[![Total Downloads](https://img.shields.io/packagist/dt/tapp/laravel-starter-kit.svg?style=flat-square&colorA=3d454d&colorB=2a7de1)](https://packagist.org/packages/tapp/laravel-starter-kit)
 
 # Tapp Laravel 12 Starter Kit
 
